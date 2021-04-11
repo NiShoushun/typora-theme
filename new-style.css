@@ -186,12 +186,9 @@ code{
   font-size: 0.9em;
   background-color: #e7e7e4;
 	padding: .3em;
-  padding-top: 0.15em;
-  padding-bottom: 0.15em;
-  border: 1px solid rgb(248, 248, 243);
   border-radius: 6px;
-  font-family: "JetBrains Mono";
-  color: rgb(23, 125, 241);
+  font-family: "Fira Code";
+  color: rgb(23, 63, 241);
 }
 tt {
   margin: 0 0.2em;
