@@ -215,14 +215,9 @@ h3 {
 }
 h4 {
   font-size: 1.2em;
-  background-color: #474747;
+  /* background-color: #474747; */
   border-radius: 6px;
   padding: 6px;
-  /*
-  border: 1px solid rgb(184, 184, 184);
-
-  border-color: #648596;
-  border-style: dashed; */
   color: rgb(43, 222, 253);
 }
 h5 {
@@ -244,6 +239,24 @@ h2:after{
     display: block;
     margin: 0 auto;
     height: 1px;
+}
+
+
+h2:before {
+  content: 'H2 ';
+  color: #5d606183;
+}
+h3:before {
+  content: 'H3 ';
+  color: #5d606183;
+}
+h4:before {
+  content: 'H4 ';
+  color: #5d606183;
+}
+h5:before {
+  content: 'H5 ';
+  color: #5d606183;
 }
 
 
@@ -1077,11 +1090,12 @@ code {
 
 /* codeblock */
 .md-fences{
-  background-color: var(--bg-color3);
+  background-color: var(--bg-color5);
+  
   border-radius: 6px;
-  padding: 8px 4px 8px 14px !important;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  padding: 8px 4px 8px 4px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
   box-shadow:1px 1px 1px 1px rgba(27, 27, 27, 0.952);
 }
 .md-fences:hover {
@@ -1091,7 +1105,7 @@ code {
   z-index: 999;
 }
 .md-fences:active {
-  background-color: var(--bg-color5);
+  background-color: var(--bg-color3);
   border-radius: 6px;
   padding: 8px 4px 8px 4px !important;
   margin-top: 15px;
@@ -1930,7 +1944,7 @@ blockquote blockquote {
 tt {
   margin: 0 0.2em;
   padding: 0 0.3em;
-  background: #252627;
+  background: var(--bg-color5);
   font-family: "Fira Code", monospace;
   color: #e9eded;
 }

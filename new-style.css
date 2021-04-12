@@ -112,6 +112,24 @@ h6 {
   font-size: 1em;
   color: #999;
 }
+
+
+h2:before {
+  content: 'H2 ';
+  color: #5d606183;
+}
+h3:before {
+  content: 'H3 ';
+  color: #5d606183;
+}
+h4:before {
+  content: 'H4 ';
+  color: #5d606183;
+}
+h5:before {
+  content: 'H5 ';
+  color: #5d606183;
+}
 hr {
   border: 1px solid #ddd;
 }
