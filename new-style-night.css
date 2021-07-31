@@ -101,6 +101,7 @@
   --node-border: var(--menu-divider-color);
   --node-fill: var(--bg-color5);
   --mermaid-theme:dark;
+
   
   --window-border: none;
 }
@@ -108,60 +109,61 @@
 @font-face {
   font-family: "JetBrains Mono";
   font-weight: normal;
-  src: local('JetBrainsMono-Regular'), url("yaung-style/JetBrainsMono-Regular.ttf");
+  src: local('JetBrainsMono-Regular'), url("new-style/JetBrainsMono-Regular.ttf");
 }
 @font-face {
   font-family: "JetBrains Mono";
   font-style: italic;
-  src: local('JetBrainsMono-Italic'), url("yaung-style/JetBrainsMono-Italic.ttf");
+  src: local('JetBrainsMono-Italic'), url("new-style/JetBrainsMono-Italic.ttf");
 }
 
 @font-face {
   font-family: "JetBrains Mono";
   font-weight: bold;
-  src: local('JetBrainsMono-Bold'), url("yaung-style/JetBrainsMono-Bold.ttf");
+  src: local('JetBrainsMono-Bold'), url("new-style/JetBrainsMono-Bold.ttf");
 }
 
 @font-face {
   font-family: "JetBrains Mono";
   font-weight: bold;
   font-style: italic;
-  src: local('JetBrainsMono-BoldItalic'), url("yaung-style/JetBrainsMono-BoldItalic.ttf");
+  src: local('JetBrainsMono-BoldItalic'), url("new-style/JetBrainsMono-BoldItalic.ttf");
 }
 
 
 @font-face {
-  font-family: "Fira Code";
+  font-family: "FiraCode";
   font-weight: normal;
-  src: local('FiraCode-Regular'), url("yaung-style/FiraCode-Regular.ttf");
+  src: local('FiraCode-Regular'), url("new-style/FiraCode-Regular.ttf");
 }
 @font-face {
-  font-family: "Fira Code";
+  font-family: "FiraCode";
   font-style: italic;
-  src: local('FiraCode-Italic'), url("yaung-style/FiraCode-Italic.ttf");
+  src: local('FiraCode-Italic'), url("new-style/FiraCode-Italic.ttf");
 }
 
 @font-face {
-  font-family: "Fira Code";
+  font-family: "FiraCode";
   font-weight: bold;
-  src: local('FiraCode-Bold'), url("yaung-style/FiraCode-Bold.ttf");
+  src: local('FiraCode-Bold'), url("new-style/FiraCode-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Fira Code";
+  font-family: "FiraCode";
   font-weight: bold;
   font-style: italic;
-  src: local('FiraCode-BoldItalic'), url("yaung-style/FiraCode-BoldItalic.ttf");
+  src: local('FiraCode-BoldItalic'), url("new-style/FiraCode-BoldItalic.ttf");
 }
 
 
 /* basic style */
 html {
   font-size: 16px;
+  font-family: "FiraCode";
 }
 
 body {
-  font-family: "Fira Code","Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial,
+  font-family: "FiraCode","JetBrains Mono","Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   color: var(--text-color1);
   background: var(--bg-color1);
@@ -1085,13 +1087,13 @@ code {
   border: 1pm solid rgb(51, 50, 50);
   border-radius: 0.25rem;
   color: #2ccf70de;
-  font-family: "Fira Code";
+  font-family: "JetBrains Mono";
 }
 
 /* codeblock */
 .md-fences{
   background-color: var(--bg-color5);
-  
+  font-family: "FiraCode";
   border-radius: 6px;
   padding: 8px 4px 8px 4px !important;
   margin-top: 15px;
@@ -1363,7 +1365,7 @@ pre.md-meta-block:active {
 }
 
 #typora-source .CodeMirror-lines {
-  max-width: 800px;
+  max-width: 1200px;
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -1373,7 +1375,7 @@ pre.md-meta-block:active {
   visibility: visible;
   opacity: 1;
   transition: 0.3s;
-  max-width: 800px;
+  max-width: 1200px;
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -1945,7 +1947,7 @@ tt {
   margin: 0 0.2em;
   padding: 0 0.3em;
   background: var(--bg-color5);
-  font-family: "Fira Code", monospace;
+  font-family: "Jetbrains Mono", monospace;
   color: #e9eded;
 }
 

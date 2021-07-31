@@ -1,57 +1,59 @@
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-weight: normal;
-  src: local('JetBrainsMono-Regular'), url("yaung-style/JetBrainsMono-Regular.ttf");
+  src: local('JetBrainsMono-Regular'), url("new-style/JetBrainsMono-Regular.ttf");
 }
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: italic;
-  src: local('JetBrainsMono-Italic'), url("yaung-style/JetBrainsMono-Italic.ttf");
+  src: local('JetBrainsMono-Italic'), url("new-style/JetBrainsMono-Italic.ttf");
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-weight: bold;
-  src: local('JetBrainsMono-Bold'), url("yaung-style/JetBrainsMono-Bold.ttf");
+  src: local('JetBrainsMono-Bold'), url("new-style/JetBrainsMono-Bold.ttf");
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-weight: bold;
   font-style: italic;
-  src: local('JetBrainsMono-BoldItalic'), url("yaung-style/JetBrainsMono-BoldItalic.ttf");
+  src: local('JetBrainsMono-BoldItalic'), url("new-style/JetBrainsMono-BoldItalic.ttf");
+}
+
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: normal;
+  src: local('FiraCode-Regular'), url("new-style/FiraCode-Regular.ttf");
+}
+@font-face {
+  font-family: "FiraCode";
+  font-style: italic;
+  src: local('FiraCode-Italic'), url("new-style/FiraCode-Italic.ttf");
 }
 
 @font-face {
-  font-family: mononoki;
-  font-style: normal;
-  font-weight: normal;
-  src: local('mononoki Regular'), url("yaung-style/mononoki-Regular.woff");
-}
-@font-face {
-  font-family: mononoki;
-  font-style: italic;
-  font-weight: normal;
-  src: local('mononoki Italic'), url("yaung-style/mononoki-Italic.woff");
-}
-@font-face {
-  font-family: mononoki;
-  font-style: normal;
+  font-family: "FiraCode";
   font-weight: bold;
-  src: local('mononoki Bold'), url("yaung-style/mononoki-Bold.woff");
+  src: local('FiraCode-Bold'), url("new-style/FiraCode-Bold.ttf");
 }
+
 @font-face {
-  font-family: mononoki;
-  font-style: italic;
+  font-family: "FiraCode";
   font-weight: bold;
-  src: local('mononoki Bold Italic'), url("yaung-style/mononoki-BoldItalic.woff");
+  font-style: italic;
+  src: local('FiraCode-BoldItalic'), url("new-style/FiraCode-BoldItalic.ttf");
 }
+
+
 html {
   font-size: 16px;
 }
 body {
   background: #fff;
-  font-family: "JetBrains Mono";
+  font-family: "FiraCode";
   color: rgb(32, 32, 32);
 }
 #write {
@@ -205,20 +207,21 @@ code{
   background-color: #e7e7e4;
 	padding: .3em;
   border-radius: 6px;
-  font-family: "Fira Code";
+  font-family: "JetBrains Mono";
   color: rgb(23, 63, 241);
 }
 tt {
   margin: 0 0.2em;
   padding: 0 0.3em;
   background: #263238;
-  font-family: mononoki, monospace;
+  font-family: "JetBrains Mono", monospace;
   color: #e9eded;
 }
 .md-fences {
   margin: 15px auto;
   padding: 0.7em 1em;
   text-shadow: none;
+  font-family: "FiraCode";
   border-radius: 6px;
   padding: 8px 4px 8px 4px !important;
   margin-top: 15px;
@@ -470,7 +473,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-  font-family:JetBrains Mono, Cascadia;
+  font-family:"JetBrains Mono", Cascadia;
 }
 @media print {
   html {
