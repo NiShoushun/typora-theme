@@ -1,15 +1,15 @@
 :root {
   /* dark color for background*/
   /* default color */
-  --bg-color1: #292A2B;
+  --bg-color1: #353636;
   /* for most panel, context, header, etc */
   --bg-color2: #2b2c2c;
   /* for toc and table edit panel */
-  --bg-color3: #222324;
+  --bg-color3: #303031;
   /* for tips */
-  --bg-color4: #212020;
+  --bg-color4: #2e2d2d;
   /* for blockquote, codeblock, input, etc */
-  --bg-color5: #313131;
+  --bg-color5: #3d3c3c;
   /* light color for text and icon*/
   /* default color */
   --text-color1: #E6E6E6;
@@ -148,12 +148,6 @@
   src: local('FiraCode-Bold'), url("new-style/FiraCode-Bold.ttf");
 }
 
-@font-face {
-  font-family: "FiraCode";
-  font-weight: bold;
-  font-style: italic;
-  src: local('FiraCode-BoldItalic'), url("new-style/FiraCode-BoldItalic.ttf");
-}
 
 
 /* basic style */
@@ -303,7 +297,9 @@ table tbody tr {
   border-top: 2px solid var(--table-border-color);
   margin: 0;
   padding: 0;
+
 }
+
 
 table tbody tr:nth-child(2n) {
   background-color: var(--table-bg-darker-color);
@@ -1098,7 +1094,7 @@ code {
   padding: 8px 4px 8px 4px !important;
   margin-top: 15px;
   margin-bottom: 15px;
-  box-shadow:1px 1px 1px 1px rgba(27, 27, 27, 0.952);
+  box-shadow:1px 1px 1px 1px rgba(48, 48, 48, 0.952);
 }
 .md-fences:hover {
 	/*/ transform:scale(0.9995); */
