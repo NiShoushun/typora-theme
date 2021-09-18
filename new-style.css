@@ -117,19 +117,15 @@ h6 {
 
 
 h2:before {
-  content: 'H2 ';
   color: #5d606183;
 }
 h3:before {
-  content: 'H3 ';
   color: #5d606183;
 }
 h4:before {
-  content: 'H4 ';
   color: #5d606183;
 }
 h5:before {
-  content: 'H5 ';
   color: #5d606183;
 }
 hr {
@@ -495,4 +491,8 @@ footer {
 }
 .md-diagram-panel-preview {
   color: #263238;
+}
+
+.MathJax {
+  color: #121db6
 }
