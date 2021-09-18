@@ -202,7 +202,7 @@ h3 {
   font-size: 1.3em;
   line-height: 1.43em;
   color: rgb(248, 163, 66);
-  padding: 6px;
+  padding: 2px;
   background-color: #424242;
   border: 1px dashed rgb(184, 184, 184);
   border-radius: 6px;
@@ -213,12 +213,12 @@ h4 {
   font-size: 1.2em;
   /* background-color: #474747; */
   border-radius: 6px;
-  padding: 6px;
+  padding: 4px;
   color: rgb(43, 222, 253);
 }
 h5 {
   color: #ecd23c;
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 h6 {
   font-size: 1em;
@@ -239,19 +239,15 @@ h2:after{
 
 
 h2:before {
-  content: 'H2 ';
   color: #5d606183;
 }
 h3:before {
-  content: 'H3 ';
   color: #5d606183;
 }
 h4:before {
-  content: 'H4 ';
   color: #5d606183;
 }
 h5:before {
-  content: 'H5 ';
   color: #5d606183;
 }
 
@@ -266,7 +262,7 @@ ol {
 blockquote {
   border-left: 4px solid #45A9F9;
   padding: 4px 15px;
-  color: hsl(220, 6%, 60%);
+  color: hsl(125, 36%, 45%);
 }
 
 blockquote blockquote {
@@ -1927,7 +1923,7 @@ blockquote {
   border-left: 5px solid #ddd;
   padding-left: 0.5em;
   font-family: "JetBrains Mono",Cascadia Code;
-  color: #555;
+  color: rgb(79, 168, 86);
 }
 blockquote blockquote {
   padding-right: 0;
