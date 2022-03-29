@@ -16,13 +16,10 @@
 
 ![image-20210313220840852](https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20210313220840.png)
 
-**为图片添加阴影，自动缩放:**
+**为图片添加阴影:**
 
 ![image-20210313223015742](https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20210313223015.png)
 
-鼠标移至图片上方放大效果：
-
-![image-20210313222729549](https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20210313222729.png)
 
 
 

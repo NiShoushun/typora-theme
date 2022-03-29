@@ -53,13 +53,16 @@ html {
 }
 body {
   background: #fff;
-  font-family: "FiraCode";
+  font-family: "Fira Code Retina", "FiraCode";
   color: rgb(0, 0, 0);
 }
+
 #write {
   max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px 30px 50px;
+  font-family: "Fira Code Retina", "FiraCode";
 }
 h1,
 h2,
@@ -79,12 +82,12 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 1.35em;
+  font-size: 1.65em;
   line-height: 1.225em;
   text-align: center;
 }
 h3 {
-  font-size: 1.25em;
+  font-size: 1.45em;
   border-radius: 6px;
 
   padding-top: 19px;
@@ -94,14 +97,14 @@ h3 {
 
   border-color: #648596;
   border-style: dashed; */
-  color: rgb(29, 61, 240);
+  color: rgb(142, 150, 28);
 }
 h4 {
-  color: #c02f2f;
-  font-size: 1.2em;
+  color: #0ba08c;
+  font-size: 1.35em;
 }
 h5 {
-  color: rgb(124, 74, 40);
+  color: rgb(26, 69, 119);
   font-size: 1.15em;
 }
 h6 {
@@ -136,19 +139,17 @@ a:active {
 
 /* 图片阴影以及放大效果 */
 img {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.753);
   transition: all 0.3s ease;
-  border-radius: 6px;
+  border-radius: 7px;
   z-index: 100;
 }
 
-/* img:hover {
-  position: absolute;
-  transform: scale(1.3);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+img:hover {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.877);
   transition: all 0.3s ease;
   z-index: 999;
-} */
+}
 
 ul,
 ol {
@@ -179,10 +180,10 @@ table td {
   padding: 10px 0;
 }
 blockquote {
-  border-left: 5px solid #ddd;
+  border-left: 5px solid rgb(52, 231, 91);
   padding-left: 0.5em;
-  font-family: JetBrains Mono, Cascadia Code;
-  color: #555;
+  font-family:"Fira Code Retina", "FiraCode", 'JetBrains Mono', 'Cascadia Code';
+  color: rgb(156, 67, 15);
 }
 blockquote blockquote {
   padding-right: 0;
@@ -194,30 +195,30 @@ blockquote blockquote {
 }
 .md-fences,
 code {
-  font-size: 0.9em;
-  background-color: #e7e7e4;
+  font-size: 1.0 em;
+  background-color: #e7e7e47c;
   padding: 0.3em;
   border-radius: 6px;
-  font-family: "JetBrains Mono";
-  color: rgb(23, 63, 241);
+  font-family: "Fira Code Retina", "FiraCode", "JetBrains Mono";
+  color: rgb(20, 39, 128);
 }
 tt {
   margin: 0 0.2em;
   padding: 0 0.3em;
   background: #263238;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Fira Code Retina", "FiraCode","JetBrains Mono", monospace;
   color: #e9eded;
 }
 .md-fences {
   margin: 15px auto;
   padding: 0.7em 1em;
   text-shadow: none;
-  font-family: "FiraCode";
+  font-family: "Fira Code Retina", "FiraCode";
   border-radius: 6px;
   padding: 8px 4px 8px 4px !important;
   margin-top: 15px;
   margin-bottom: 15px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.853);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.853);
   transition: 0.3s ease;
 }
 
@@ -233,7 +234,7 @@ tt {
 .md-table-fig,
 .md-table-fig:active {
   border-radius: 6px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 table thead tr {
@@ -335,7 +336,7 @@ table tr td:last-child {
   */
 
 .cm-s-inner.CodeMirror {
-  background-color: #263238;
+  background-color: #2e3031;
   color: rgba(233, 237, 237, 1);
 }
 .cm-s-inner .CodeMirror-gutters {
@@ -560,9 +561,10 @@ table tr td:last-child {
   border: none;
 }
 
-.md-fences .code-tooltip {
+.code-tooltip {
   background-color: #263238;
 }
+
 .CodeMirror div.CodeMirror-cursor {
   border-left: 1px solid #e4629a;
 }
@@ -581,7 +583,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-  font-family: "JetBrains Mono", Cascadia;
+  font-family: "Fira Code Retina", "FiraCode", "JetBrains Mono", Cascadia;
 }
 @media print {
   html {
@@ -599,7 +601,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-  font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, JetBrains Mono;
+  font-family:"Fira Code Retina", "FiraCode", Helvetica Neue, Helvetica, Segoe UI, Arial, JetBrains Mono;
 }
 .md-diagram-panel-preview {
   color: #263238;
@@ -607,4 +609,5 @@ footer {
 
 .MathJax {
   color: #000caf;
+  font-size: 1.07em;
 }
